@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(to right, hsl(213, 19%, 18%), hsl(216,12%, 8%));
+}
+
+/*first container*/
+.frst-container {
+    background-color: hsl(216, 12%, 8%);
+    width: 24%;
+    border-radius: 20px;
+    margin: 200px 500px 0px 500px;
+    padding-right: 40px;
+}
+/*mobile rsponsiveness*/
+@media screen and (max-width: 480px) {
+    .frst-container {
+      margin: 40px 20px 20px 20px; 
+      width: 90%;  
+    }  
+}
+
+.star {
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-left: 20px;
+    padding: 11px 11px;
+}
+
+.txt-heading {
+    color: hsl(0, 0%, 100%);
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.txt-paragraph {
+    width: 100%;
+    color: hsl(0, 0%, 100%);
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.btns {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.btn {
+    border: 1px solid hsl(213, 19%, 18%);
+    border-radius: 15px;
+    padding: 9px 11px;
+    background-color: hsl(213, 19%, 18%);
+    margin-left: 18px;
+    color: hsl(216, 12%, 54%);
+    font-weight: 700;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    border: 1px solid hsl(25, 97%, 53%);
+}
+.btn:active {
+    background-color: hsl(216, 12%, 54%);
+    color: hsl(216, 12%, 8%);
+}
+
+.submit {
+    margin-top: 30px;
+    margin-left: 30px;
+    padding: 5px 85px;
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 30px;
+    border: 1px solid hsl(25, 97%, 53%);
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight:600;
+    color: hsl(0, 0%, 100%);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+.submit:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+    border: 1px solid hsl(0, 0%, 100%);
+}
+
+
+/*second container*/
+.scnd-container {
+    position: absolute;          /*to overide the first container*/
+    background-color: hsl(216, 12%, 8%);
+    width: 27%;
+    border-radius: 20px;
+    padding-right: 40px;
+    left: 38%;
+    bottom: 25%;
+}
+/*mobile responsiveness*/
+@media screen and (max-width: 480px) {
+    .scnd-container {
+        left: 5%;
+        bottom: 33%;
+        width: 90%;  
+    }  
+}
+
+.tnk {
+    margin-top: 30px;
+    margin-left: 85px;
+}
+
+.txt-paragraph-2 {
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(25, 97%, 53%);
+    margin-top: 10px;
+    margin-left: 70px;
+    margin-right: 40px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 18px;
+    padding: 5px 5px;
+}
+
+.txt-heading-2 {
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.txt-paragraph-3 {
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.hidden {
+    display: none;
+}
