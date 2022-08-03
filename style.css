@@ -5,6 +5,7 @@
 }
 body {
     background-image: linear-gradient(to right, hsl(213, 19%, 18%), hsl(216,12%, 8%));
+    font-family: 'Overpass', sans-serif; 
 }
 
 /*first container*/
@@ -35,13 +36,15 @@ body {
     color: hsl(0, 0%, 100%);
     margin-left: 20px;
     margin-top: 15px;
+    font-weight: 700;
 }
 
 .txt-paragraph {
-    width: 100%;
+    width: 80%;
     color: hsl(0, 0%, 100%);
     margin-top: 10px;
     margin-left: 20px;
+    font-weight: 400;
 }
 
 .btns {
